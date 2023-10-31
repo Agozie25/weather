@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(220deg,plum, purple);
+}
+.error{
+    font-size: 20px;
+    margin: 10px;
+    text-transform: capitalize;
+    display: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container{
+    width: 560px;
+    background: plum;
+    padding: 20px 30px;
+    border-radius: 10px;
+    line-height: 50px;
+    letter-spacing: 1;
+    box-shadow: 2px 0px 10px #000;
+}
+
+.input-Part input{
+    outline: none;
+    width: 90%;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.input-Part h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.input-Part input:focus{
+    box-shadow:  0  0 8px rgba(0,0,0,.7);
+}
+
+.input-Part button{
+    border: none;
+    font-size: 30px;
+    font-weight: 800;
+    background: #fff;
+    padding: 7px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times;
+    color: #333;
+    position:absolute;
+}
+
+.weather{
+    font-size: 30px;
+    margin: 30px 20px;
+}
+
+.weather-part{
+    text-align: center;
+    display: none;
+}
+
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20.5px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.humidity span{
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 20.8px;
+}
